@@ -1,0 +1,164 @@
+* {
+   box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.health {
+    position: relative;
+    /* height: 30px; */
+    width: 100%;
+    border: 2px solid aliceblue;
+}
+
+.health-bar {
+    background-color: red;
+    height: 30px;
+}
+
+.health-background {
+    position: absolute;
+    background-color: blueviolet;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.health-background_p {
+    position: absolute;
+    background-color: blueviolet;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.player {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 25px;
+    background-color: #000000d2;
+    height: 50px;
+    width: 150px;
+    flex-shrink: 0;
+    border: 2px solid aliceblue;
+}
+
+.tie {
+    position: absolute;
+    color: aliceblue;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.box {
+    margin-left: 5%;
+}
+
+.map-name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family:monospace;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+ul li {
+    display: block;
+    list-style: none;
+    margin: 1%;
+}
+
+li button{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li img {
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.personnage {
+    margin-top: 15%;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:monospace;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 25px;
+}
+
+.joueur {
+    color: blue;
+}
+
+.personnage ul {
+    margin: 0;
+}
+
+.list-perso li{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 2%;
+}
+
+.list-perso li button{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+
+.list-perso li img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}

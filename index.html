@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figther</title>
+</head>
+<body>
+
+    <div class="personnage">
+        <h2 class="title">Fisafidianana ny mpilalao</h2>
+        <ul class="list-perso">
+            <li><p id="joueur1" class=" joueur map-name">Mpilalao 1</p><p id="perso-choisie1" class="map-name perso-choise"></p></li>
+            <li>
+                <button id="Jaomarenga"><img src="./img/Figther/Figther-preview/Jaomarenga.png" alt=""></button>
+                <p class="map-name">Jaomarenga</p>
+            </li>
+            <li>
+                <button id="Trimobe"><img src="./img/Figther/Figther-preview/Trimobe.png" alt=""></button>
+                <p class="map-name">Trimobe</p>
+            </li>
+            <li>
+                <button id="Radama"><img src="./img/Figther/Figther-preview/Radama.png" alt=""></button>
+                <p class="map-name">Radama I</p>
+            </li>
+            <li>
+                <button id="Mpamosavy"><img src="./img/Figther/Figther-preview/Mpamosavy.png" alt=""></button>
+                <p class="map-name">Mpamosavy</p>
+            </li>
+            <li><p id="joueur2" class="map-name">Mpilalao 2</p><p id="perso-choisie2" class="map-name perso-choise"></p></li>
+        </ul>
+    </div>
+    
+    <div class="map none">
+        
+        <ul class="list-map">
+            <li>
+                <button class="terrain" id="rainForest"><img src="./img/Background/Background.png"></button>
+                <p class="map-name">Ala Maintso</p>
+            </li>
+            <li>
+                <button class="terrain" id="ghotic"><img src="./img/Background/environment-preview.png"></button>
+                <p class="map-name">Antananarivo</p>
+            </li>
+            <li>
+                <button class="terrain" id="forestSunset"><img src="./img/Background/Reference-Image.png"></button>
+                <p class="map-name">Nosy Mena</p>
+            </li>
+
+            <li>
+                <button class="terrain" id="wood"><img src="./img/Background/Background (1).png"></button>
+                <p class="map-name">Ambanivohitra</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="box none">
+        <div class="header">
+            <!-- player health -->
+            <div class="health" style="border-right: 0;">
+                <div class="health-bar"></div>
+                <div id="playerHealth" class="health-background_p"></div>
+            </div>
+            <!-- timer -->
+            <div id="timer" class="timer">10</div>
+            <!-- ennemi health -->
+            <div class="health" style="border-left: 0;">
+                <div class="health-bar"></div>
+                <div id="ennemiHealth" class="health-background"></div>
+            </div>
+        </div>
+        <div id="tie" class="tie">Tie</div>
+        <canvas id="room"></canvas>
+    </div>
+
+    <script src="Js/helper.js"></script>
+    <script src="Js/classes.js"></script>
+    <script src="Js/map.js"></script>
+    <script src="Js/figther.js"></script>
+    <script src="app.js"></script>
+    <script src="Js/index.js"></script>
+
+</body>
+</html>
