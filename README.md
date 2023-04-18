@@ -1,3 +1,5 @@
+Jouer : https://johaninho.github.io/GasyGame/
+
 # State 1: choix du personnage
     les joueurs auront la possibilité de choisir un personnage issus des legendes ou des personnages historiques Malagasy. les persos qui seront disponibles sont alors :
 
