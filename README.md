@@ -20,7 +20,7 @@ Rabe Andrianasolo Johaninho Nirinjaka IGGLIA 3 N: 13
         + Antananarivo
         + Ambanivohitra
 
-# state 4: Jouer
+# state 3: Jouer
     Le but est simple, il suffit d'être le premier a reduire à 0 les PVs de l'adverssaire avant que le temps impartis ne soit écoulé. les commandes pour faire bouger les personnages sont alors les suivants:
 
         # PLAYER 1
