@@ -1,7 +1,7 @@
 # Jouer
 https://johaninho.github.io/GasyGame/
 
-#Nom et prénom
+# Nom et prénom
 Rabe Andrianasolo Johaninho Nirinjaka IGGLIA 3 N: 13
 
 # State 1: choix du personnage
