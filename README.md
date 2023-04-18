@@ -29,4 +29,4 @@
         + o : pour sauter
         + k : pour aller à gauche
         + m : pour aller à droite
-        + Enter : pour attaquer"# GasyGame_fightingGame"  
+        + Enter : pour attaquer"
